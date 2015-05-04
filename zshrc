@@ -12,9 +12,10 @@ antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
 antigen-bundle $ZSHA_BASE/bundles/git-completion
 antigen-bundle $ZSHA_BASE/bundles/stv
-#antigen-bundle $ZSHA_BASE/bundles/virtualenv
+antigen-bundle $ZSHA_BASE/bundles/virtualenv
+antigen-bundle arialdomartini/oh-my-git
+antigen theme arialdomartini/oh-my-git-themes oppa-lana-style
 
-antigen-theme $ZSHA_BASE/themes/mgdm/mgdm.zsh-theme
 
 antigen-apply
 
